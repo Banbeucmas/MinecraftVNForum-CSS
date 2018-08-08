@@ -1,0 +1,324 @@
+:root{
+    --main-primary-bg-color: #292929;
+    --main-tab-bg-color: #cc3838;
+    --main-button-bg-color: #ff2a2a;
+
+    --main-secondary-bg-color: #383838;
+    --main-secondary-select-color: #424242;
+
+    --main-secondary-border-color: #5a5a5a;
+    --main-secondary-text-color: #d7d7d7;
+
+    --secondary-bg-color: #383838;
+    --secondary-text-color: #adadad;
+    --secondary-border-color: #5a5a5a;
+}
+
+#QuickSearchQuery{
+    color: #e2e2e2;
+    background-color: #383838;
+}
+
+.navTabs{
+    background-color: var(--main-tab-bg-color);
+}
+
+.breadcrumb{
+    background-color: var(--main-secondary-bg-color);
+    border: 1px solid var(--main-secondary-bg-color);
+}
+
+body{
+    color: #fff;
+}
+
+body, html, #content {
+    background: var(--main-primary-bg-color);
+}
+
+a.callToAction span{
+    background: var(--main-button-bg-color);
+}
+
+.textCtrl{
+    color: #cacaca;
+    background-color: #585858;
+}
+
+element.style{
+    background: #383838;
+}
+
+.Menu{
+    border: #272626;
+}
+
+.primaryContent{
+    border-bottom: 1px solid #5a5a5a;
+}
+
+.Menu .primaryContent{
+    background-color: var(--main-primary-bg-color);
+}
+
+.Menu .secondaryContent{
+    background-color: var(--secondary-bg-color);
+}
+
+#Block1stPanes, #Block2ndPanes{
+    border: var(--main-secondary-bg-color);
+}
+
+.tabs{
+    border-bottom: 1px solid var(--main-secondary-border-color);
+}
+
+.tabs li a, .tabs.noLinks li{
+    color: var(--main-secondary-text-color);
+    background-color: var(--main-secondary-bg-color);
+    border: 1px solid var(--main-secondary-border-color);
+}
+
+.tabs li.active a, .tabs.noLinks li.active{
+    background-color: var(--main-secondary-select-color);
+}
+
+#siropuChat{
+    background-color: var(--main-secondary-bg-color);
+    border: var(--main-secondary-border-color);
+}
+
+.siropuChatMessages, #siropuChatForumActivity, #siropuChatRooms, .siropuChatPrivateMessages{
+    border-right: 1px solid var(--main-secondary-border-color);
+}
+
+#siropuChatHeader{
+    background: #403f3f;
+    border-bottom: 1px solid var(--main-secondary-border-color);
+}
+
+#siropuChatSettings{
+    background: #393939;
+}
+
+.bbCodeQuote .attribution{
+    color: var(--main-secondary-text-color);
+    background-color: #161616;
+}
+
+.siropuChatTagged{
+    background-color: #ffa9a9;
+}
+
+
+legend{
+    color: #fff
+}
+
+.siropuChatUsers, #siropuChatPrivateUsers{
+    background-color: var(--main-secondary-bg-color);
+}
+
+.siropuChatMessages, #siropuChatForumActivity, #siropuChatRooms, .siropuChatPrivateMessages{
+    background-color: var(--main-secondary-bg-color);
+}
+
+.siropuChatMessage{
+    color: var(--main-secondary-text-color);
+}
+
+#siropuChatEditor{
+    background-color: var(--main-secondary-bg-color);
+    border-top: 1px solid var(--main-secondary-border-color);
+}
+
+.button{
+    color: var(--main-secondary-text-color);
+    background-color: #2d2d2d;
+    border-top-color: var(--main-secondary-border-color);
+}
+
+.sectionMain {
+    background-color: var(--main-secondary-bg-color);
+    border: 1px solid var(--main-secondary-border-color);
+}
+
+.secondaryContent {
+    background: var(--secondary-bg-color);
+    color: var(--secondary-text-color);
+}
+
+.sidebar .section .secondaryContent {
+    box-shadow: 0 0;
+    border-color: var(--secondary-bg-color);
+    background-color: var(--secondary-bg-color);
+}
+
+.sidebar .section .primaryContent h3, .sidebar .section .secondaryContent h3, .profilePage .mast .section.infoBlock h3 {
+    color: var(--secondary-text-color);
+    border-bottom: 1px solid var(--secondary-border-color);
+}
+
+.profilePostListItem{
+    border-top: 1px solid var(--secondary-border-color);
+}
+
+.sidebar .section .primaryContent h3 a, .sidebar .section .secondaryContent h3 a{
+    color: var(--secondary-text-color);
+}
+
+.UserTitleLadderMeter{
+    background: var(--secondary-bg-color);
+    border: var(--secondary-bg-color);
+}
+
+.gsc-control-cse{
+    background-color: var(--secondary-bg-color);
+    border-color: var(--secondary-border-color);
+}
+
+.gsc-input-box{
+    background-color: #383838;
+    border: 1px solid #383838;
+}
+
+table, td {
+    border: 1px solid var(--secondary-border-color);
+}
+
+.nodeList .categoryForumNodeInfo, .nodeList .forumNodeInfo, .nodeList .pageNodeInfo, .nodeList .linkNodeInfo{
+    background-color: var(--secondary-bg-color);
+}
+
+.categoryStrip__collapseToggle{
+    background: var(--main-button-bg-color);
+}
+
+.node .forumNodeInfo.unread .nodeIcon, .node .categoryForumNodeInfo.unread .nodeIcon{
+    background: var(--main-button-bg-color);
+}
+
+.downloadButton .inner{
+    background: var(--main-button-bg-color);
+}
+
+.PageNav a{
+    background-color: var(--main-secondary-bg-color);
+    border: 1px solid var(--main-secondary-bg-color);
+}
+
+.PageNav a.currentPage{
+    color: var(--main-secondary-bg-color);
+    border-color: var(--main-secondary-bg-color);
+    background: var(--main-button-bg-color);
+}
+
+.messageList .message{
+    background-color: var(--secondary-bg-color);
+    border: var(--secondary-border-color);
+}
+
+.bbCodeQuote .quoteContainer{
+    background-color: #2b2b2b;
+}
+.message .dark_postrating.likesSummary, .dark_postrating{
+    background-color: #2b2b2b;
+    color: var(--secondary-text-color);
+    border: #2b2b2b;
+}
+
+.message .signature{
+    border: 0px solid #2b2b2b;
+    color: #fff;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.messageUserInfo {
+    border: 1px solid #292828;
+}
+
+.messageUserBlock {
+    background-color: #292828;
+    border: 1px solid #292828;
+}
+
+.messageUserBlock div.avatarHolder{
+    background-color: #292828;
+}
+
+.messageUserBlock h3.userText{
+    background-color: #5a5a5a;
+    border: 0px solid #5a5a5a;
+}
+
+.messageUserBlock .arrow{
+    border-left-color: #292828;
+}
+
+.messageUserBlock .arrow span{
+    border-left-color: #292828;
+}
+
+.message .messageMeta .uix_postbit_privateControlsMenu.PopupOpen{
+    background-color: var(--main-button-bg-color);
+    border: 1px solid var(--main-button-bg-color);
+}
+
+.message .messageMeta .uix_postbit_privateControlsMenu{
+    background-color: #2b2b2b;
+    border: 1px solid #2b2b2b;
+}
+
+.message .messageMeta .control{
+    background-color: #2b2b2b;
+    border: 1px solid #2b2b2b;
+}
+
+.button.primary{
+    background-color: var(--main-button-bg-color);
+}
+
+.primaryContent{
+    background-color: var(--main-secondary-bg-color);
+}
+
+.imageCollection{
+    background: #2b2b2b;
+    border: 0px
+
+}
+
+.imageCollection .textHeading{
+    color: var(--main-button-bg-color);
+}
+
+
+.textHeading, .xenForm .sectionHeader{
+    border-bottom: 1px solid #2b2b2b;
+}
+
+.resourceUpdate .likesSummary{
+    background-color: #2b2b2b;
+    border: 1px solid #2b2b2b;
+}
+
+.innerContent .rateBlock{
+    border: 1px solid var(--main-secondary-bg-color);
+    background: var(--main-secondary-bg-color);
+}
+
+.imageCollection li{
+    background-color: #191919;
+    border: 1px;
+}
+
+.tagList .tag{
+    color: var(--main-secondary-text-color);
+    background-color: var(--main-secondary-bg-color);
+    border: 1px solid var(--main-button-bg-color);
+}
+
+.bigFooter .pageContent{
+    background-color: var(--main-secondary-bg-color);
+}
